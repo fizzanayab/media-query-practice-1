@@ -1,0 +1,114 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header{
+height: 90px;
+background-color: rgb(149, 211, 211);
+float: left;
+}
+.ads{
+    height: 500px;
+    background-color: rgb(211, 149, 201);
+    float: left;
+}
+
+.content{
+    height: 500px;
+    background-color: rgb(235, 243, 243);
+    float: left;
+}
+
+.nav{
+
+    height: 500px;
+    background-color: rgb(205, 211, 149);
+    float: left;
+}
+
+.footer{
+    height: 90px;
+    background-color: rgb(149, 211, 211);
+    float: left;
+
+}
+@media only screen and (max-width: 360px) {
+    .header {
+        height: 30px;
+        float: left;
+    
+    }
+    .ads{
+        height: 150px;
+width: 100%;  
+float: left;
+
+  }
+    .content{
+        height: 300px;
+        width: 100%;  
+        float: left;
+
+    }
+    .nav{
+
+        height: 150px;
+        width: 100%;  
+        float: left;
+
+    }
+    .footer{
+        height: 30px;
+        float: left;
+    
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .header {
+        height: 60px;
+        float: left;
+    
+    }
+    .ads{
+        height: 250px;
+width: 50%;  
+float: left;
+
+  }
+    .content{
+        height: 200px;
+        width: 100%;  
+        float: left;
+
+    }
+    .nav{
+
+        height: 250px;
+        width: 50%;  
+        float: left;
+
+    }
+    .footer{
+        height: 60px;
+        float: left;
+    
+    }
+    
+}
+
+
+@media only screen and (min-width: 1024px) {
+    
+}
