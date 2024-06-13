@@ -32,7 +32,7 @@ float: left;
 
     height: 500px;
     background-color: rgb(205, 211, 149);
-    float: left;
+    float: right;
 }
 
 .footer{
@@ -41,74 +41,58 @@ float: left;
     float: left;
 
 }
+
+
+
+
+
 @media only screen and (max-width: 360px) {
-    .header {
-        height: 30px;
-        float: left;
-    
-    }
     .ads{
-        height: 150px;
-width: 100%;  
-float: left;
-
-  }
-    .content{
-        height: 300px;
-        width: 100%;  
-        float: left;
-
+        width:100% ;
+        height: 30%;
     }
     .nav{
-
-        height: 150px;
-        width: 100%;  
-        float: left;
+        width:100% ;
+        height: 30%;      
 
     }
-    .footer{
-        height: 30px;
-        float: left;
-    
-    }
+.content .nav{
+   
+}
 }
 
 
 
 @media only screen and (min-width: 768px) {
-    .header {
-        height: 60px;
-        float: left;
-    
-    }
     .ads{
-        height: 250px;
-width: 50%;  
-float: left;
-
-  }
-    .content{
-        height: 200px;
-        width: 100%;  
-        float: left;
-
+        width:50% ;
+        height: 60%;
     }
+   
+    
     .nav{
-
-        height: 250px;
-        width: 50%;  
-        float: left;
+        width:50% ;
+        height: 60%;
 
     }
-    .footer{
-        height: 60px;
-        float: left;
-    
-    }
-    
 }
 
-
 @media only screen and (min-width: 1024px) {
-    
+    .header{
+        height: 110px;
+        }
+        .ads{
+            height: 500px;
+        }
+        .content{
+            height: 500px;
+        }
+        
+        .nav{
+            height: 500px;
+
+        }
+        .footer{
+            height: 110px;
+        }
 }
